@@ -2,9 +2,10 @@ Una collection de Ansible es un conjunto de roles, módulos y otros recursos que
 
 En este caso, este módulo forma parte de una collection centrada en funciones multimodales, donde se aprovecha la capacidad del modelo Gemini de Google para generar texto automáticamente a partir de distintos tipos de entrada:
 
-imágenes (.jpg, .png, .jpeg)
-documentos (.txt, .pdf, .ppt, .pptx)
-vídeo (.mp4) desde archivo local o mediante descarga Esto permite automatizar el análisis de contenido multimedia.
+- imágenes (.jpg, .png, .jpeg)
+- documentos (.txt, .pdf, .ppt, .pptx)
+- vídeo (.mp4) desde archivo local o mediante descarga Esto permite automatizar el análisis de contenido multimedia.
+
 Las collections de Ansible son muy útiles porque te permiten reutilizar y combinar roles y módulos en diferentes proyectos y entornos. En lugar de tener que recrear los mismos roles y módulos para cada proyecto, puedes simplemente utilizar una collection existente y personalizarla según tus necesidades.
 
 En Ansible, un rol es una forma de packaging y organizar tareas y módulos relacionados para que puedan ser reutilizados en diferentes proyectos y entornos. Dentro de esta estructura, este módulo actúa como el componente principal encargado de interactuar con el modelo Gemini, procesando entradas multimodales y devolviendo resultados en lenguaje natural.
